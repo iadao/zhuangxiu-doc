@@ -35,41 +35,13 @@
 
       // Search Plugin Configuration
       search: {
-        placeholder: '搜索',
-        noData: '找不到结果',
+        placeholder: 'Type to search',
+        noData: 'No matches found.',
         // Headline depth, 1 - 6
         depth: 2,
       }
-      pagination: {
-            previousText: '上一页',
-            nextText: '下一页',
-            crossChapter: true,
-            crossChapterText: true
-      }
-      copyCode: {
-            buttonText: 'Copy to clipboard',
-            errorText: 'Error',
-            successText: 'Copied',
-      }
-      count:{
-            countable:true,
-            fontsize:'0.9em',
-            color:'rgb(90,90,90)',
-            language:'chinese'
-      }
-      themeable: {
-          readyTransition : true, // default
-          responsiveTables: true  // default
-      }
     };
   </script>
-
-      <script>
-  window.$docsify = {
-    disqus: 'shortname'
-  }
-</script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
 
   <!-- Required -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
@@ -77,18 +49,6 @@
   <!-- Recommended -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <!-- Latest v2.x.x -->
-  <script src="https://unpkg.com/docsify-copy-code@2"></script>
-  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-
-  <!-- docsify -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-  <!-- docsify-themeable -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
-
-
 
 </body>
 </html>
