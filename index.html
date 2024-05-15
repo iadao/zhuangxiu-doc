@@ -22,6 +22,19 @@
   <div id="app"></div>
 
   <script>
+    window.$docsify = {
+  // ...
+  pagination: {
+    previousText: '上一章节',
+    // or
+    nextText: {
+      '/en/': 'NEXT',
+      '/': '下一章节'
+    },
+    crossChapter: true,
+    crossChapterText: true,
+  },
+}
     // Docsify Configuration (see https://docsify.js.org/#/configuration)
     window.$docsify = {
       name: 'Simple Docsify Template',
@@ -40,12 +53,6 @@
         // Headline depth, 1 - 6
         depth: 2,
       }
-            pagination: {
-            previousText: '上一页',
-            nextText: '下一页',
-            crossChapter: true,
-            crossChapterText: true
-      }
 
     };
   </script>
@@ -56,8 +63,8 @@
   <!-- Recommended -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
 </body>
 </html>
