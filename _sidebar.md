@@ -1,5 +1,4 @@
-- [Read Me](README)
-- [Example Second Page](second-page)
+- [关于](README)
 - [前期准备阶段](前期准备阶段/)
     * [装修流程](前期准备阶段/装修流程.md)
     * [装修形式](前期准备阶段/装修形式.md)

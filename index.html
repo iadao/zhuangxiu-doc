@@ -35,11 +35,18 @@
 
       // Search Plugin Configuration
       search: {
-        placeholder: 'Type to search',
-        noData: 'No matches found.',
+        placeholder: '搜索',
+        noData: '找不到结果',
         // Headline depth, 1 - 6
         depth: 2,
       }
+            pagination: {
+            previousText: '上一页',
+            nextText: '下一页',
+            crossChapter: true,
+            crossChapterText: true
+      }
+
     };
   </script>
 
@@ -49,6 +56,8 @@
   <!-- Recommended -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
 </body>
 </html>
